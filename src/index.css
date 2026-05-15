@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #f5f7fa;
+  --card: #ffffff;
+  --border: #e0e8f0;
+  --blue: #378ADD;
+  --blue-dark: #185FA5;
+  --blue-light: #EBF4FC;
+  --text-primary: #1a1a2e;
+  --text-secondary: #7a8a9a;
+  --error: #e74c3c;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--bg);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
